@@ -1,0 +1,82 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bg img{
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    height: 800px;
+    bottom: 0;
+  }
+  .danfo{
+      position: absolute;
+      bottom: 0%;
+      z-index: 100;
+      left: -390px;
+      animation: car 3s linear infinite;
+  }
+  .danfo2{
+      position: absolute;
+      bottom: 12%;
+      z-index: 100;
+      right: 100px;
+      animation: car2 4s linear infinite;
+      
+      z-index: 100;
+  }
+
+
+.person{
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    margin-right: 150px;
+    animation: person 1.0s linear infinite;
+
+}
+
+
+        
+    
+    
+
+
+@keyframes car2{
+      0%{
+          transform: translate(0,0);
+          }
+          
+      100%{
+          transform: translate(-1400px);
+      }    
+  }
+  .bg{
+      position: absolute;
+      bottom: 0;
+      z-index: 99;
+      height: 800px;
+      width: 100%;
+      background-color: #fff
+  }
+  
+  @keyframes car{
+      0%{
+          transform: translate(0,0);
+          }
+          
+      100%{
+          transform: translate(1000px);
+      }    
+  }
+  .danfo img{
+      width: 400px;
+  }
+  .danfo2 img{
+      width: 400px;
+  }
